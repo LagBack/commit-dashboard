@@ -18,18 +18,6 @@ A sleek, single-file dashboard that visualizes your GitHub commit activity in a 
 3. Enter your GitHub username and a Personal Access Token with `read:user` and `repo` scopes
 4. Hit **load stats**
 
-> **Why an HTTP server?** Browsers block `fetch()` calls from the `file://` protocol for security reasons. Any local server works:
-> ```bash
-> # Python
-> python -m http.server 3000
->
-> # Node
-> npx serve . -s 3000
->
-> # PHP
-> php -S localhost:3000
-> ```
-> Then visit `http://localhost:3000/commit-dashboard.html`.
 
 ## Tech Stack
 
