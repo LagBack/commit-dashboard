@@ -1,4 +1,4 @@
-Commit Activity Dashboard
+## Commit Activity Dashboard
 
 A sleek, single-file dashboard that visualizes your GitHub commit activity in a clean dark interface. No frameworks, no build step, no dependencies — just open it in your browser and go.
 
